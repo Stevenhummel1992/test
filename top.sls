@@ -1,11 +1,7 @@
 base:
   'salt':
-    - nettools
+    - muninmaster
+    - muninconf
     - apache
-    - munin-master
-    - munin-master-config
-
-  'salt-minion':
-    - nettools
-    - munin-node
-    - munin-node-append
+    - chown
+    - restart
